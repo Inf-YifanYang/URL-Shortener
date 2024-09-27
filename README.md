@@ -9,6 +9,7 @@ A URL Shortener API built with FastAPI, allowing users to create shortened URLs,
 - Support URL expiration where URLs are no longer accessible after a certain period.
 - Periodically deactivate expired URLs by setting `is_active` to `False`, freeing up the URLs for reuse.
 - Option to return the "long URL", "remaining time until expiration" in JSON format.
+- Support adjustable short URL length.
 
 ## Requirements
 
