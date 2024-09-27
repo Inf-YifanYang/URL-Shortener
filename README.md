@@ -7,6 +7,7 @@ A URL Shortener API built with FastAPI and SQLite, allowing users to create shor
 - Generate a unique short URL for a given long URL.
 - Redirect users to the original URL when the short URL is accessed.
 - Support URL expiration where URLs are no longer accessible after a certain period.
+- Support custom URL expiration times.
 - Periodically deactivate expired URLs by setting `is_active` to `False`, freeing up the URLs for reuse.
 - Option to return the "long URL", "remaining time until expiration" in JSON format.
 - Support adjustable short URL length.
