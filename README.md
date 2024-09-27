@@ -124,7 +124,7 @@ To adjust the interval, modify the following in main.py:
 ## Database Schema
 The application uses SQLAlchemy for database management. The main table, URLMapping, includes the following columns:
 
-id: Integer (Primary Key)
+   - id: Integer (Primary Key)
    - long_url: String (The original long URL)
    - short_url: String (The generated short URL)
    - creation_time: DateTime (The time when the URL created)
