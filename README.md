@@ -92,7 +92,7 @@ A URL Shortener API built with FastAPI and SQLite, allowing users to create shor
      
       <img src="redirect_url.png" alt="redirect_url" width="700"/>
       
-3. **Obtain the Original URL and Remaining Time before Expiration**:
+3. **Retrieval of Information for The Shortened URL, e.g., associated "long URL" and "remaining time until expiration"**:
    - Endpoint: /info
    - Method: GET
    - Request: http://127.0.0.1:8080/info/{short_url} 
