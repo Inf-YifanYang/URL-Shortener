@@ -1,13 +1,13 @@
 # FastAPI URL Shortener
 
-A URL Shortener API built with FastAPI, allowing users to create shortened URLs, handle link expiration, and manage URL redirection. The API also includes a feature to periodically disable expired URLs by setting an `is_active` flag to `False` to free up available URL for use.
+A URL Shortener API built with FastAPI, allowing users to create shortened URLs, handle link expiration, and manage URL redirection. The API also includes a feature to periodically deactivate expired URLs by setting an `is_active` flag to `False` to free up the URLs for reuse.
 
 ## Features
 
 - Generate a unique short URL for a given long URL.
 - Redirect users to the original URL when the short URL is accessed.
 - Support URL expiration where URLs are no longer accessible after a certain period.
-- Periodically disable expired URLs by setting `is_active` to `False`.
+- Periodically deactivate expired URLs by setting `is_active` to `False`, freeing up the URLs for reuse.
 - Option to return the long URL, remaining time before expiration in JSON format.
 
 ## Requirements
