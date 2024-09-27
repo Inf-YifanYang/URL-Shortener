@@ -84,6 +84,7 @@ A URL Shortener API built with FastAPI, allowing users to create shortened URLs,
    - Request: http://127.0.0.1:8080/{short_url}
    - Using shortened URL:
       <img src="short_url.png" alt="before_index" width="700"/>
+      
    - Redirect to original URL:
       <img src="redirect_url.png" alt="before_index" width="700"/>
 3. **Obtain the Original URL and Remaining Time before Expiration**:
