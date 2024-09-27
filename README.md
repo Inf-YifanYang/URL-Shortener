@@ -122,6 +122,12 @@ To adjust the interval, modify the following in main.py:
       scheduler.start()
    ```
 
+## Adjustable Short URL Length
+To adjust the short URL length, modify the following in config.py:
+   ```python
+   SHORTEN_URL_SIZE: int = 5 # can be set to customized number
+   ```
+
 ## Database Schema
 The application uses SQLAlchemy for database management. The main table, URLMapping, includes the following columns:
 
