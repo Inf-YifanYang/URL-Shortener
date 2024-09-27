@@ -62,18 +62,18 @@ A URL Shortener API built with FastAPI, allowing users to create shortened URLs,
 
      ```json
       {
-         "long_url": "https://example.com",
+         "long_url": "https://www.keysight.com/us/en/home.html",
          "expiration_minutes": 20
       }
    - Response:
      
      ```json
       {
-         "long_url": "https://example.com",
+         "long_url": "https://www.keysight.com/us/en/home.html",
          "expiration_minutes": 20,
          "expiration_time": "2024-09-27T02:30:04.797886",
          "creation_time": "2024-09-27T02:10:04.797886",
-         "short_url": "XL6MS",
+         "short_url": "CRADP",
          "is_active": true
       }
      
@@ -98,12 +98,12 @@ A URL Shortener API built with FastAPI, allowing users to create shortened URLs,
      
      ```json
       {
-         "long_url": "https://example.com",
+         "long_url": "https://www.keysight.com/us/en/home.html",
          "remaining_time": "00:17:13",
          "expiration_minutes": 20,
          "expiration_time": "2024-09-27T02:30:04.797886",
          "creation_time": "2024-09-27T02:10:04.797886",
-         "short_url": "XL6MS",
+         "short_url": "CRADP",
          "is_active": true
       }
      
