@@ -66,7 +66,7 @@ A URL Shortener API built with FastAPI and SQLite, allowing users to create shor
      ```json
       {
          "long_url": "https://www.keysight.com/us/en/home.html",
-         "expiration_minutes": 20 % (Optional, default=60) can be modified to any integer to allow users to set a custom expiration time.
+         "expiration_minutes": 20 // (Optional, default=60) can be modified to any integer to allow users to set a custom expiration time.
       }
    - Response:
      
