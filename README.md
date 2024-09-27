@@ -12,7 +12,7 @@ A URL Shortener API built with FastAPI, allowing users to create shortened URLs,
 
 ## Requirements
 
-- **Python 3.7+**
+- **Python 3.12**
 - **FastAPI**
 - **Uvicorn** (server for running FastAPI)
 - **SQLAlchemy** (ORM for interacting with the database)
