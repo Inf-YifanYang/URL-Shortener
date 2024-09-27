@@ -83,10 +83,13 @@ A URL Shortener API built with FastAPI, allowing users to create shortened URLs,
    - Description: Redirects to the original URL if it is still active and hasn't expired.
    - Request: http://127.0.0.1:8080/{short_url}
    - Using shortened URL:
+     
       <img src="short_url.png" alt="short_url" width="700"/>
       
    - Redirect to original URL:
+     
       <img src="redirect_url.png" alt="redirect_url" width="700"/>
+      
 3. **Obtain the Original URL and Remaining Time before Expiration**:
    - Endpoint: /info
    - Method: GET
