@@ -60,6 +60,7 @@ A URL Shortener API built with FastAPI and SQLite, allowing users to create shor
 1. **Shorten a URL**:
    - Endpoint: /service
    - Method: POST
+   - Description: Create a shortened URL for a long URL.
    - Request Body:
 
      ```json
@@ -92,9 +93,10 @@ A URL Shortener API built with FastAPI and SQLite, allowing users to create shor
      
       <img src="redirect_url.png" alt="redirect_url" width="700"/>
       
-3. **Retrieval of Information for The Shortened URL, e.g., associated "long URL" and "remaining time until expiration"**:
+3. **Retrieval of Information for The Shortened URL**:
    - Endpoint: /info
    - Method: GET
+   - Description: Retrieval of relevant information for the shortened URL, e.g., associated "long URL" and "remaining time until expiration".
    - Request: http://127.0.0.1:8080/info/{short_url} 
    - Response:
      
